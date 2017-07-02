@@ -1,0 +1,31 @@
+{
+  "name": "todo_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawallis/todo_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kawallis/todo_server/issues"
+  },
+  "homepage": "https://github.com/kawallis/todo_server#readme",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "morgan": "^1.8.2"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.11.0"
+  }
+}
